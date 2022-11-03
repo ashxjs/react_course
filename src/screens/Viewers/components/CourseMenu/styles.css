@@ -1,0 +1,25 @@
+div.course-menu {
+    width: fit-content;
+    background-color: #242526;
+}
+
+div.course-menu > div {
+    cursor: pointer;
+    color: #dadde1;
+}
+
+div.course-menu-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+div.course-menu-content span {
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+div.course-menu-content :hover {
+    text-decoration: underline;
+}

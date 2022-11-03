@@ -1,0 +1,21 @@
+div#markdown-renderer-container {
+    width: 100%;
+    height: 100%;
+    padding: 0px 16px;
+    overflow-x: hidden;
+    background-color: #1b1b1d;
+}
+
+div#markdown-renderer-container h1, h2, h3, h4 {
+    color: #e3e3e3;
+}
+
+div#markdown-renderer-container a, a:visited {
+    color: #679df5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#markdown-renderer-container {
+    color: #e0e0e0;
+}
